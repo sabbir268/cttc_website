@@ -1,5 +1,5 @@
  	<!-- Main Header-->
- 	<header class="main-header">
+ 	<header class="main-header" id="main-header">
 
  	    <div class="header-top">
  	        <div class="auto-container clearfix">
@@ -18,8 +18,14 @@
  	                <ul class="links-nav">
  	                    <li><a href="contact.php">Contact Us</a></li>
  	                    <li><a href="about-us.php">About Us</a></li>
- 	                    <li><a href="#">Support</a></li>
  	                    <li><a href="#">English</a></li>
+ 	                    <li><a href="#"    role="button" 
+   data-html="true" 
+   data-toggle="popover" 
+   data-placement="bottom"
+   data-content="<input style='width:200px' type='text' class='form-control'>"
+ ><i class="fa fa-search"></i></a></li>
+ 
  	                </ul>
 
  	            </div>
@@ -32,11 +38,12 @@
  	            <div class="clearfix">
 
  	                <div class="pull-left logo-outer">
- 	                    <div class="logo"><a href="index.php"><img src="images/logo.png" alt="" title="CTTC"></a></div>
+ 	                    <div class="logo"><a href="#main-header"><img style="    height: 83px;
+    width: 72px;" src="images/logo_origin.png" alt="CTTC"></a></div>
  	                </div>
  	                <div class="pull-left " style="    font-size: 17px;
     padding: 18px 7px;
-    font-weight: bolder;">Counter Terrorism and Transnational Crime <br>
+    font-weight: 700;text-transform:uppercase;    font-family: 'Source Sans Pro', sans-serif;">Counter Terrorism and Transnational Crime <br>
  	                    Dhaka Metropolitan Police
  	                </div>
 
@@ -59,7 +66,7 @@
  	                    <!--Info Box-->
  	                    <div class="upper-column info-box">
  	                        <div class="icon-box"><span class="fa fa-phone-square"></span></div>
- 	                        01769691522 <b></b>
+ 	                        +8801769691522 <b></b>
  	                        <div class="light-text">Hot Line</div>
  	                    </div>
 
@@ -87,19 +94,19 @@
 
  	                    <div class="navbar-collapse collapse clearfix">
  	                        <ul class="navigation clearfix">
- 	                            <li><a href="index.php">Home</a></li>
- 	                            </li>
- 	                            <li><a href="#">WHAT WE DO</a></li>
- 	                            <li><a href="#">WHAT YOU CAN DO</a></li>
+ 	                            
+ 	                            <li><a href="#waht_we_do">WHAT WE DO</a></li>
+ 	                            <li><a href="#waht_you_do">WHAT YOU CAN DO</a></li>
  	                            <li class="dropdown">
- 	                                <a href="gallery.php">Gallery</a>
+ 	                                <a href="gallery.php">GALLERY</a>
  	                                <ul class="navigation">
  	                                    <li><a href="gallery-video.php">Video</a></li>
- 	                                    <li><a href="gallery-audio.php">Audio</a></li>
+ 	                                    <li><a href="gallery-audio.php">Photo</a></li>
  	                                </ul>
  	                            </li>
- 	                            <li><a href="gallery.php">NEWS</a></li>
+ 	                            <li><a href="#news-section">NEWS</a></li>
  	                            <!-- <li><a href="gallery.php">EVENTS</a></li> -->
+								<li><a href="#our_networks">OUR NETWORKS</a></li>
  	                        </ul>
  	                    </div>
  	                </nav>
@@ -116,7 +123,7 @@
  	        <div class="auto-container clearfix">
  	            <!--Logo-->
  	            <div class="logo pull-left">
- 	                <a href="index.php" class="img-responsive"><img src="images/logo.png" alt="CTTC"></a>
+ 	                <a href="#main-header" class="img-responsive"><img style="margin-top: 7px !important;width: 180%;" src="images/logo_origin.png" alt="CTTC"></a>
  	            </div>
 
  	            <!--Right Col-->
@@ -134,18 +141,19 @@
 
  	                    <div class="navbar-collapse collapse clearfix">
  	                        <ul class="navigation clearfix">
- 	                            <li><a href="index.php">Home</a></li>
- 	                            </li>
- 	                            <li><a href="#">WHAT WE DO</a></li>
- 	                            <li><a href="#">WHAT YOU CAN DO</a></li>
+ 	                            
+							 <li><a href="#waht_we_do">WHAT WE DO</a></li>
+ 	                            <li><a href="#waht_you_do">WHAT YOU CAN DO</a></li>
  	                            <li class="dropdown">
- 	                                <a href="gallery.php">Gallery</a>
+ 	                                <a href="gallery.php">GALLERY</a>
  	                                <ul class="navigation">
  	                                    <li><a href="gallery-video.php">Video</a></li>
- 	                                    <li><a href="gallery-audio.php">Audio</a></li>
+ 	                                    <li><a href="gallery-audio.php">Photo</a></li>
  	                                </ul>
  	                            </li>
- 	                            <li><a href="gallery.php">News</a></li>
+ 	                            <li><a href="#news-section">NEWS</a></li>
+ 	                            <!-- <li><a href="gallery.php">EVENTS</a></li> -->
+								<li><a href="#our_networks">OUR NETWORKS</a></li>
  	                        </ul>
  	                    </div>
  	                </nav><!-- Main Menu End-->
